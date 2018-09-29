@@ -5,6 +5,8 @@ This is just a simple exploratory analysis to get familiar with the Python langu
 
 While the goal is simply to get used to Python and some other technologies, I am interested in the specific question of ***what factors are the best predictors of minority owned companies***.  
 
+[Track progress of the project on my trello board](https://trello.com/b/lZYSGp4M/federal-contractors-python)
+
 #### Init
 Read in the data and load packages
 

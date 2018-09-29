@@ -1,4 +1,8 @@
 FROM jupyter/scipy-notebook
 RUN pip install pandas-profiling
-# it might be good to add something that will create a user for me
-# instead of using jovyan
+
+# copy all the files
+RUN git clone "https://github.com/benmccary/federal_py"
+COPY /data/ /home/jovyan/federal_py/data/
+
+# make a new user
